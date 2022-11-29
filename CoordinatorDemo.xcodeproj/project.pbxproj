@@ -9,21 +9,53 @@
 /* Begin PBXBuildFile section */
 		2584090B2936023A009BD83D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2584090A2936023A009BD83D /* AppDelegate.swift */; };
 		2584090D2936023A009BD83D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2584090C2936023A009BD83D /* SceneDelegate.swift */; };
-		2584090F2936023A009BD83D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2584090E2936023A009BD83D /* ViewController.swift */; };
-		258409122936023A009BD83D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258409102936023A009BD83D /* Main.storyboard */; };
 		258409142936023E009BD83D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258409132936023E009BD83D /* Assets.xcassets */; };
 		258409172936023E009BD83D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258409152936023E009BD83D /* LaunchScreen.storyboard */; };
+		25840924293602F0009BD83D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25840922293602F0009BD83D /* LoginViewController.swift */; };
+		25840925293602F0009BD83D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25840923293602F0009BD83D /* LoginViewController.xib */; };
+		258409292936044C009BD83D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258409272936044C009BD83D /* RegisterViewController.swift */; };
+		2584092A2936044D009BD83D /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 258409282936044C009BD83D /* RegisterViewController.xib */; };
+		2584092E293604AD009BD83D /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2584092C293604AD009BD83D /* ResetPasswordViewController.swift */; };
+		2584092F293604AD009BD83D /* ResetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2584092D293604AD009BD83D /* ResetPasswordViewController.xib */; };
+		25840933293604F5009BD83D /* UpdatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25840931293604F5009BD83D /* UpdatePasswordViewController.swift */; };
+		25840934293604F5009BD83D /* UpdatePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25840932293604F5009BD83D /* UpdatePasswordViewController.xib */; };
+		258409382936055D009BD83D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258409362936055D009BD83D /* HomeViewController.swift */; };
+		258409392936055D009BD83D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 258409372936055D009BD83D /* HomeViewController.xib */; };
+		2584093D293605B2009BD83D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2584093B293605B2009BD83D /* ProfileViewController.swift */; };
+		2584093E293605B2009BD83D /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2584093C293605B2009BD83D /* ProfileViewController.xib */; };
+		25840942293605D2009BD83D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25840940293605D2009BD83D /* SettingsViewController.swift */; };
+		25840943293605D2009BD83D /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25840941293605D2009BD83D /* SettingsViewController.xib */; };
+		258409462936073E009BD83D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258409452936073E009BD83D /* Coordinator.swift */; };
+		2584094829360931009BD83D /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2584094729360931009BD83D /* AuthCoordinator.swift */; };
+		2584094A2936135D009BD83D /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258409492936135D009BD83D /* HomeCoordinator.swift */; };
+		2584094C293615F4009BD83D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2584094B293615F4009BD83D /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		258409072936023A009BD83D /* CoordinatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2584090A2936023A009BD83D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2584090C2936023A009BD83D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2584090E2936023A009BD83D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		258409112936023A009BD83D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		258409132936023E009BD83D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		258409162936023E009BD83D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		258409182936023E009BD83D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25840922293602F0009BD83D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		25840923293602F0009BD83D /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		258409272936044C009BD83D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		258409282936044C009BD83D /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		2584092C293604AD009BD83D /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		2584092D293604AD009BD83D /* ResetPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResetPasswordViewController.xib; sourceTree = "<group>"; };
+		25840931293604F5009BD83D /* UpdatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePasswordViewController.swift; sourceTree = "<group>"; };
+		25840932293604F5009BD83D /* UpdatePasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdatePasswordViewController.xib; sourceTree = "<group>"; };
+		258409362936055D009BD83D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		258409372936055D009BD83D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		2584093B293605B2009BD83D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2584093C293605B2009BD83D /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		25840940293605D2009BD83D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		25840941293605D2009BD83D /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		258409452936073E009BD83D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		2584094729360931009BD83D /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		258409492936135D009BD83D /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		2584094B293615F4009BD83D /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +88,119 @@
 		258409092936023A009BD83D /* CoordinatorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2584094429360736009BD83D /* Coordinator */,
+				2584091E293602A6009BD83D /* Scenes */,
 				2584090A2936023A009BD83D /* AppDelegate.swift */,
 				2584090C2936023A009BD83D /* SceneDelegate.swift */,
-				2584090E2936023A009BD83D /* ViewController.swift */,
-				258409102936023A009BD83D /* Main.storyboard */,
 				258409132936023E009BD83D /* Assets.xcassets */,
 				258409152936023E009BD83D /* LaunchScreen.storyboard */,
 				258409182936023E009BD83D /* Info.plist */,
 			);
 			path = CoordinatorDemo;
+			sourceTree = "<group>";
+		};
+		2584091E293602A6009BD83D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				25840920293602CC009BD83D /* HomeCycel */,
+				2584091F293602C4009BD83D /* AuthCycle */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2584091F293602C4009BD83D /* AuthCycle */ = {
+			isa = PBXGroup;
+			children = (
+				25840930293604E4009BD83D /* UpdatePassword */,
+				2584092B29360487009BD83D /* ResetPassword */,
+				2584092629360439009BD83D /* Register */,
+				25840921293602E3009BD83D /* Login */,
+			);
+			path = AuthCycle;
+			sourceTree = "<group>";
+		};
+		25840920293602CC009BD83D /* HomeCycel */ = {
+			isa = PBXGroup;
+			children = (
+				2584093F293605B9009BD83D /* settings */,
+				2584093A293605A1009BD83D /* Profile */,
+				2584093529360532009BD83D /* Home */,
+			);
+			path = HomeCycel;
+			sourceTree = "<group>";
+		};
+		25840921293602E3009BD83D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				25840922293602F0009BD83D /* LoginViewController.swift */,
+				25840923293602F0009BD83D /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2584092629360439009BD83D /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				258409272936044C009BD83D /* RegisterViewController.swift */,
+				258409282936044C009BD83D /* RegisterViewController.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		2584092B29360487009BD83D /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				2584092C293604AD009BD83D /* ResetPasswordViewController.swift */,
+				2584092D293604AD009BD83D /* ResetPasswordViewController.xib */,
+			);
+			path = ResetPassword;
+			sourceTree = "<group>";
+		};
+		25840930293604E4009BD83D /* UpdatePassword */ = {
+			isa = PBXGroup;
+			children = (
+				25840931293604F5009BD83D /* UpdatePasswordViewController.swift */,
+				25840932293604F5009BD83D /* UpdatePasswordViewController.xib */,
+			);
+			path = UpdatePassword;
+			sourceTree = "<group>";
+		};
+		2584093529360532009BD83D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				258409362936055D009BD83D /* HomeViewController.swift */,
+				258409372936055D009BD83D /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2584093A293605A1009BD83D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2584093B293605B2009BD83D /* ProfileViewController.swift */,
+				2584093C293605B2009BD83D /* ProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2584093F293605B9009BD83D /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				25840940293605D2009BD83D /* SettingsViewController.swift */,
+				25840941293605D2009BD83D /* SettingsViewController.xib */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+		2584094429360736009BD83D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				258409452936073E009BD83D /* Coordinator.swift */,
+				2584094B293615F4009BD83D /* AppCoordinator.swift */,
+				2584094729360931009BD83D /* AuthCoordinator.swift */,
+				258409492936135D009BD83D /* HomeCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +262,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				258409172936023E009BD83D /* LaunchScreen.storyboard in Resources */,
+				25840943293605D2009BD83D /* SettingsViewController.xib in Resources */,
+				2584092F293604AD009BD83D /* ResetPasswordViewController.xib in Resources */,
+				2584093E293605B2009BD83D /* ProfileViewController.xib in Resources */,
 				258409142936023E009BD83D /* Assets.xcassets in Resources */,
-				258409122936023A009BD83D /* Main.storyboard in Resources */,
+				25840925293602F0009BD83D /* LoginViewController.xib in Resources */,
+				25840934293604F5009BD83D /* UpdatePasswordViewController.xib in Resources */,
+				258409392936055D009BD83D /* HomeViewController.xib in Resources */,
+				2584092A2936044D009BD83D /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +280,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2584090F2936023A009BD83D /* ViewController.swift in Sources */,
+				25840924293602F0009BD83D /* LoginViewController.swift in Sources */,
 				2584090B2936023A009BD83D /* AppDelegate.swift in Sources */,
+				2584094C293615F4009BD83D /* AppCoordinator.swift in Sources */,
+				258409462936073E009BD83D /* Coordinator.swift in Sources */,
+				25840933293604F5009BD83D /* UpdatePasswordViewController.swift in Sources */,
+				2584092E293604AD009BD83D /* ResetPasswordViewController.swift in Sources */,
+				2584094A2936135D009BD83D /* HomeCoordinator.swift in Sources */,
 				2584090D2936023A009BD83D /* SceneDelegate.swift in Sources */,
+				2584094829360931009BD83D /* AuthCoordinator.swift in Sources */,
+				258409382936055D009BD83D /* HomeViewController.swift in Sources */,
+				2584093D293605B2009BD83D /* ProfileViewController.swift in Sources */,
+				258409292936044C009BD83D /* RegisterViewController.swift in Sources */,
+				25840942293605D2009BD83D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		258409102936023A009BD83D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				258409112936023A009BD83D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		258409152936023E009BD83D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +436,6 @@
 				INFOPLIST_FILE = CoordinatorDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +463,6 @@
 				INFOPLIST_FILE = CoordinatorDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
